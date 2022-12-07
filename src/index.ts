@@ -1,6 +1,6 @@
 import { initializeKeypair } from "./initializeKeypair"
 import * as web3 from "@solana/web3.js"
-
+// import * as token from "@solana/spl-token"
 import {
   Metaplex,
   keypairIdentity,
@@ -11,9 +11,11 @@ import {
 import {
   DataV2,
   createCreateMetadataAccountV2Instruction,
-  // createUpdateMetadataAccountV2Instruction,
+  createUpdateMetadataAccountV2Instruction,
 } from "@metaplex-foundation/mpl-token-metadata"
 import * as fs from "fs"
+
+
 async function createTokenMetadata(
   connection: web3.Connection,
   metaplex: Metaplex,
@@ -24,10 +26,10 @@ async function createTokenMetadata(
   description: string
 ) {
   // file to buffer
-  const buffer = fs.readFileSync("assets/phoneix.jpg")
+  const buffer = fs.readFileSync("assets/phoenix.jpg")
 
   // buffer to metaplex file
-  const file = toMetaplexFile(buffer, "phoneix.jpg")
+  const file = toMetaplexFile(buffer, "phoenix.jpg")
 
   // upload image and get image uri
   const imageUri = await metaplex.storage().upload(file)
