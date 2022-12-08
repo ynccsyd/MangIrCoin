@@ -26,3 +26,14 @@ const symbol = "PRC"
 const decimals = 2
 const amount = 1000
 ````
+---
+### :grey_exclamation:  $\textcolor{gray}{ Do\ not\ forget\ to\ add\ your\ token\ image}$ 
+
+````ruby
+  // file to buffer
+  const buffer = fs.readFileSync("src/images.png")
+
+  // buffer to metaplex file
+  const file = toMetaplexFile(buffer, "images.png")
+  ````
+ 
