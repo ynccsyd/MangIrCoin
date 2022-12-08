@@ -39,4 +39,10 @@ const amount = 1000
  ## :trophy: $\textcolor{brown}{Congratulations\, now\ you\ have\ your\ token!}$
 <p align="center">
   <img src="https://user-images.githubusercontent.com/109158340/206389892-fe3020bf-574b-4b5a-bf6a-c2fa2a5ce8b3.png" >
+ 
+ ###   $\textcolor{gray}{ Here's\ your\ token's\ metadata}$ 
+ 
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/109158340/206390331-6046ac77-171d-49c7-82a8-b8c308101190.png" >
+ 
 
