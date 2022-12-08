@@ -15,3 +15,14 @@ npm install @metaplex-foundation/js fs
 npm install @metaplex-foundation/mpl-token-metadata
 npm start
 ```
+---
+
+### :speech_balloon:  $\textcolor{gray}{ Be\ creative!!!\ Write\ your\ token\ details:}$ 
+
+````ruby
+const tokenName = "MangırCoin"
+const description = "Welcome to rebirth of the everything."
+const symbol = "PRC"
+const decimals = 2
+const amount = 1000
+````
