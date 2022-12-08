@@ -36,4 +36,7 @@ const amount = 1000
   // buffer to metaplex file
   const file = toMetaplexFile(buffer, "images.png")
   ````
- 
+ ## :trophy: $\textcolor{brown}{Congratulations\, now\ you\ have\ your\ token!}$
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/109158340/206389892-fe3020bf-574b-4b5a-bf6a-c2fa2a5ce8b3.png" >
+
